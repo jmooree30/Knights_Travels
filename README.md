@@ -1,6 +1,16 @@
 # Knights_Travels
 ![Image Hover Text](/tour.gif)
 
+## Installation
+
+Open your Terminal/Command Line. Navigate to the directory where your version will live. Type in the following:
+
+```
+$ git clone https://github.com/jmooree30/Knights_Travels.git
+$ cd Knights_Travels
+$ ruby knights_travels.rb
+```
+
 Your task is to build a function knight_moves that shows the simplest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
 
 You can think of the board as having 2-dimensional coordinates. Your function would therefore look like:
