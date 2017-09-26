@@ -48,4 +48,4 @@ end
     @start_knight.path.each do |path| print path end 
     end
 
-    shortest_path([0,0],[7,7])
+shortest_path([0,0],[7,7])
