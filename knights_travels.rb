@@ -45,7 +45,9 @@ end
     end 
     counter = @start_knight.path.size 
     puts "You made it in #{counter} moves! Here's your path:\n"
-    @start_knight.path.each do |path| print path end 
-    end
+    @start_knight.path.each do |path|
+      print path 
+    end 
+  end
 
 shortest_path([0,0],[7,7])
